@@ -87,7 +87,7 @@ class CryptoModule(object):
 
         return out_dict
 
-    def create_secured_module(self, path_to_opened_module: str, path_to_secured_module: str, create_key: bool = False,
+    def create_secured_module(self, path_to_opened_module: str, path_to_secured_module: str, create_key: bool = True,
                               delete_source_opened_module: bool = False) -> None:
         """
         Create the encrypted python secured module
